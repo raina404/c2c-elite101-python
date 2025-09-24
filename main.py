@@ -16,7 +16,11 @@ def get_user_name():
     return input("Please enter your name: ")
 
 def greet_user(name):
+
     print(f"Hello, {name}! I am the Chatbot. How may I help you?\n")
+=======
+    print(f"Hello, {name}, how are you?")
+  >>>>>>> main
 
 def main():
     # Start chatbot
